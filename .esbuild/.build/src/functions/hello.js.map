@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/functions/hello.ts"],
+  "sourcesContent": ["export const handler = async (event: any) => {\n    return `Hello from handler! ${event.httpMethod}`;\n  };"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAO,IAAM,UAAU,OAAO,UAAe;AACzC,SAAO,uBAAuB,MAAM;AAAA;",
+  "names": []
+}
