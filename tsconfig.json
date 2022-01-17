@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.paths.json",
   "module": "commonjs",
+  "extensions": [".mjs",".json",".ts",".js"],
   "compilerOptions": {
     "lib": ["ES2020"],
     "moduleResolution": "node",
